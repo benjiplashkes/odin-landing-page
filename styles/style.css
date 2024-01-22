@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {box-sizing: border-box}    
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Rowdies:wght@300;400;700&display=swap');  
+body{
+    color: #f9faf8;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1;
+    }
+h1, h2, h3 {
+    font-family: 'Patua One','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.5;
+}
+header {
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    letter-spacing: 1.5;
+    padding: 1rem 8rem;
+}
+
+
+h1.logo {
+
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+header li {
+    list-style-type: none;
+    display: inline;
+    margin-inline-start: 0.5rem;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+
+    padding: 6rem 8rem;
+
+}
+.hero h2{
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 1rem 0;
+}
+.hero p {
+    margin-bottom: 4rem;
+    width: 60ch;
+    line-height: 1.5;
+}
+.hero-image  img{
+    padding: 1rem;
+    border-radius: 2rem;
+}
+button.cta {
+    box-shadow: none;
+    padding: 0.75rem 2.5rem;
+    background-color: #3382f6;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18;
+    border-radius: 0.5rem;
+}
+
+section.info{
+    background-color: #fff;
+    color: #1f2937;
+    font-size: 36px;
+
+    padding: 6rem 8rem;
+
+}
