@@ -1,18 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:ital,wght@0,100;0,400;0,900;1,100;1,600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
-html {box-sizing: border-box}    
-@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Rowdies:wght@300;400;700&display=swap');  
-body{
-    color: #f9faf8;
-    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 1;
-    }
-h1, h2, h3 {
-    font-family: 'Patua One','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 1.5;
+
+html {
+    box-sizing: border-box;
+
 }
+
+body {
+    color: #f9faf8;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1;
+    line-height: 1.25;
+    max-width: 105rem;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+section {
+    border-radius: 0.5rem;
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: 1.8;
+
+}
+
 header {
     font-size: 18px;
     color: #e5e7eb;
@@ -32,11 +51,13 @@ h1.logo {
     font-weight: bolder;
 
 }
-header li {
+
+li {
     list-style-type: none;
     display: inline;
     margin-inline-start: 0.5rem;
 }
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -49,20 +70,24 @@ header li {
     padding: 6rem 8rem;
 
 }
-.hero h2{
+
+.hero h2 {
     font-size: 48px;
     color: #f9faf8;
     margin: 1rem 0;
 }
+
 .hero p {
     margin-bottom: 4rem;
     width: 60ch;
     line-height: 1.5;
 }
-.hero-image  img{
+
+.hero-image img {
     padding: 1rem;
     border-radius: 2rem;
 }
+
 button.cta {
     box-shadow: none;
     padding: 0.75rem 2.5rem;
@@ -74,11 +99,123 @@ button.cta {
     border-radius: 0.5rem;
 }
 
-section.info{
+section.info {
     background-color: #fff;
     color: #1f2937;
-    font-size: 36px;
-
     padding: 6rem 8rem;
 
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.info .card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 16px;
+    text-align: center;
+    margin-top: 4rem
+}
+
+.info .card {
+    padding: 0.5rem;
+    width: 30ch;
+
+
+}
+
+.info .card img {
+    border: 3px solid #3882f6;
+    border-radius: 0.5rem;
+    padding: 0.5rem
+}
+
+.info .card figcaption {
+    margin-top: 0.5rem;
+}
+
+section.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 2;
+    min-height: 30vh;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 16rem;
+}
+
+.quote-text {
+    width: 60ch;
+}
+
+.quote-ref {
+    margin-top: 8px;
+    align-self: flex-end;
+    font-weight: 600;
+    font-style: normal;
+}
+
+section.cta-section {
+    padding: 8rem;
+}
+
+.cta-title {
+    font-weight: 600;
+    letter-spacing: 1;
+}
+
+.cta-wrapper {
+    background-color: #3882f6;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0.5rem;
+
+}
+
+button.cta.cta-button {
+    border: 2px solid rgb(255, 255, 255);
+    color: #fff;
+
+}
+
+footer.site-footer {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #f9faf8;
+    padding: 1rem;
+
+}
+
+footer .wrapper>p {
+    margin: 1rem;
+}
+
+footer .wrapper li {
+    font-size: 0.75rem;
+
+}
+
+footer a {
+    color: #e5e7eb;
+}
+
+footer a:hover {
+    color: #3382f6;
 }
